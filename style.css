@@ -7,6 +7,7 @@
     "Lucida Sans", Arial, sans-serif;
 }
 header {
+  height: 10vh;
   background-color: #ef9273;
   color: #0d0d0d;
   padding: 1rem;
@@ -17,6 +18,7 @@ header {
 }
 main {
   width: 80vw;
+  height: 65vh;
   box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
@@ -25,7 +27,8 @@ main {
   margin: auto;
   margin-top: 2rem;
   border-radius: 1rem;
-  padding: 2rem 0;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 .timer {
   margin-bottom: 2rem;
@@ -53,6 +56,7 @@ main {
 }
 button {
   width: 48%;
+  height: 3rem;
   padding: 1rem;
   background-color: #ef9273;
   border-radius: 1rem;
@@ -68,6 +72,7 @@ button {
 
 input {
   width: 40%;
+  height: 3rem;
   margin: auto;
   box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
   width: 50%;
@@ -95,6 +100,7 @@ footer {
 }
 .rboard {
   width: 60%;
+  height: 6vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,11 +119,15 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 60vw;
+    padding: 4rem;
+  }
+  .rboard {
+    width: 20%;
   }
   .btns {
     display: flex;
-    justify-content: space-around;
-    gap: 1rem;
+    gap: 4rem;
   }
   button {
     width: 20%;
