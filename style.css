@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+header {
+  background-color: #ef9273;
+  color: #0d0d0d;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 2rem 2rem;
+}
+main {
+  width: 80vw;
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  padding: 2rem 0;
+}
+.timer {
+  margin-bottom: 2rem;
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+  background-color: #ef9273;
+  border-radius: 2rem;
+  padding: 1rem;
+  height: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.fa-star {
+  color: red;
+  background-color: #fff;
+  font-size: 1.2rem;
+}
+.btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 70vw;
+}
+button {
+  width: 48%;
+  padding: 1rem;
+  background-color: #ef9273;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 40%;
+  margin: auto;
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+  width: 50%;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.operator {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  width: 50%;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ef9273;
+}
+footer {
+  text-align: center;
+  color: #ef9273;
+  margin-top: 1rem;
+}
+.rboard {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 2rem;
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+#scoreb {
+  color: red;
+}
+@media screen and (min-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .btns {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  button {
+    width: 20%;
+    justify-content: space-around;
+  }
+  .game {
+    display: flex;
+    gap: 1rem;
+  }
+  .num1,
+  .num2,
+  input {
+    height: 3rem;
+    border-radius: 0.5rem;
+    margin: auto;
+    text-align: center;
+  }
+  .operator {
+    margin: 0;
+  }
+  button {
+    height: 3rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+  }
+}

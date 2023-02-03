@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="./app.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Addition Game</title>
+</head>
+
+<body>
+  <header>
+    <h2>Addition <i class="fa-solid fa-calculator"></i> Game</h2>
+  </header>
+  <section class="rboard">Score: &nbsp;<i class="fa-solid fa-star"></i> &nbsp;<span id="scoreb">0</span></section>
+  <main id="main">
+    <div class="timer" id="">
+      <span><i class="fa-solid fa-stopwatch"></i></span>&nbsp;
+      <p id="timer"></p>
+    </div>
+    <div class="game">
+      <input class="num1" id="num1" value="0" disabled></input>
+      <div class="operator">+</div>
+      <input class="num2" id="num2" value="0" disabled></input>
+      <div class="operator">=</div>
+      <input type="number" id="output" />
+    </div>
+
+    <div class="btns">
+      <button type="submit" id="submit"><i class="fa-solid fa-paper-plane"></i> Submit</button>
+      <button type="retry" id="retry"><i class="fa-solid fa-arrows-rotate"></i> Retry</button>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; - 2022 By Abuaslam - 20 Days of Code</p>
+  </footer>
+</body>
+</body>
+
+</html>
