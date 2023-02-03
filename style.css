@@ -7,7 +7,7 @@
     "Lucida Sans", Arial, sans-serif;
 }
 body {
-  height: 100vh;
+  height: 100%;
 }
 header {
   height: 10vh;
@@ -43,8 +43,6 @@ main {
   display: flex;
   align-items: center;
   font-weight: 700;
-  position: absolute;
-  top: 10rem;
 }
 .fa-star {
   color: red;
@@ -60,13 +58,13 @@ main {
   width: 70vw;
 }
 button {
-  width: 48%;
+  width: 46%;
   height: 3rem;
   padding: 1rem;
   background-color: #ef9273;
   border-radius: 1rem;
   margin-top: 2rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 .game {
